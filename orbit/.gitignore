@@ -1,0 +1,7 @@
+a.py
+.vscode
+venv
+*.docx
+*.pptx
+*.png
+*.npy
