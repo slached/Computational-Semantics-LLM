@@ -36,7 +36,7 @@ def plot_trajectory_space(data_path, labels, model_name):
     # Initialize plot
     plt.figure(figsize=(12, 8))
 
-    # Filter indices for specific classes to compare (e.g., 5 samples per class)
+    # Filter indices for specific classes to compare 
     # Class 0: World, Class 3: Sci/Tech
     class_0_indices = np.where(labels == 0)[0][:5]
     class_3_indices = np.where(labels == 3)[0][:5]
@@ -312,7 +312,7 @@ if __name__ == "__main__":
     np.save("model_2_trajectories.npy", model_2_data)
     print("Success: 'model_2_trajectories.npy' successfully written to disk.\n")"""
 
-    # --- FEATURE EXTRACTION FOR BOTH MODEL TRAJECTORIES ---
+    """# --- FEATURE EXTRACTION FOR BOTH MODEL TRAJECTORIES ---
     model_1_all_features, kinematic, angular = extract_trajectory_features(
         "model_1_trajectories.npy"
     )
@@ -320,9 +320,9 @@ if __name__ == "__main__":
         "model_2_trajectories.npy"
     )
 
-    guess(model_1_all_features, model_2_all_features)
+    guess(model_1_all_features, model_2_all_features)"""
 
-    """print("Extracting labels from dataset...")
+    print("Extracting labels from dataset...")
     dataset = load_dataset("ag_news", split="train")
     labels = np.array([dataset[i]["label"] for i in range(1000)])
 
@@ -332,6 +332,6 @@ if __name__ == "__main__":
 
     plot_trajectory_space(
         data_path="model_2_trajectories.npy", labels=labels, model_name="Qwen1.5"
-    )"""
+    )
 
     print("All tasks completed.")
