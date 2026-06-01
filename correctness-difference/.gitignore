@@ -1,7 +1,0 @@
-.venv
-.env
-merged_models
-qwen-3.5-4b-math-grpo-lora
-qwen-3.5-4b-math-sft-lora
-train_dataset
-*.txt
