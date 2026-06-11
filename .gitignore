@@ -1,0 +1,15 @@
+a.py
+.vscode
+venv
+.env
+*.docx
+*.pptx
+*.png
+*.npy
+*pdf
+*.txt
+
+merged_models
+qwen-3.5-4b-math-grpo-lora
+qwen-3.5-4b-math-sft-lora
+qwen-3.5-4b-multisft-lora

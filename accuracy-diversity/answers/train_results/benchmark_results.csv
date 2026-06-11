@@ -1,0 +1,7 @@
+Model,Avg Accuracy (Pass@1) %,Pass@10 %,Majority Voting %,Extraction Rate %
+MULTISFT+GRPO,65.35,84.5,69.51,96.29
+MULTISFT,64.97,84.75,69.25,96.24
+GRPO,7.87,41.6,3.4,99.96
+SFT+GRPO,2.35,6.6,2.3,99.99
+SFT,2.16,5.7,2.2,100.0
+BASE,8.8,45.3,1.6,99.89
